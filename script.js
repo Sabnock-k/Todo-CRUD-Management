@@ -15,5 +15,5 @@ function renderTools(){
 }
 
 function addTodo(event){
-    event.preventDefault
+    event.preventDefault 
 }
