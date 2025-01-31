@@ -4,13 +4,15 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
 }
 
 .container{
     background-color: #fff;
+    margin: 16px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
