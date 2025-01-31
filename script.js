@@ -9,7 +9,7 @@ function renderTodos() {
     todos.forEach((todo, index) => {
         const li = document.createElement('li');
         li.className = 'todo-item';
-        li.innerHTML = `<span>${todo}</span> <button onclick="editTodo(${index})">Edit</button> <button onclick="deleteTodo(${index})">Delete</button>`;
+        li.innerHTML = `<span>${todo}</span> <button style="margin: 5px;" onclick="editTodo(${index})">Edit</button> <button style="margin: 5px;" onclick="deleteTodo(${index})">Delete</button>`;
         todoList.appendChild(li);
     });
 }
